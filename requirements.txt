@@ -1,0 +1,6 @@
+tqdm
+Pillow
+matplotlib
+numpy
+pprint
+pandas
