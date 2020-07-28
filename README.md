@@ -76,6 +76,6 @@ python main.py
 
 If everything has been set up properly, you will see the image being created. Wait until the program stops running and you can view your converted high resolution file in your directory.
 
-##IMPORTANT: Make sure you credit PMA for the use of their API
+## IMPORTANT: Make sure you credit PMA for the use of their API
 
 Sucaet Yves, Pappas Angelos and Wim Waelput. “Free Whole Slide Image Viewer – PMA.Start | Universal Digital Microscopy Software”. http://free.pathomation.com/ . 2017. Web. {DD-MMM-YYYY}.
