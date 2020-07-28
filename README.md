@@ -1,14 +1,14 @@
-#Instructions for use
+# Instructions for use
 
 In order to effectively use this script, there are a couple steps you have to follow in order to download the right modules and tools for the API client script to work properly.
 
 The PMA.start API is used for .scn file interpreting. It is connected to a conversion pipeline that is in the script that creates a .jpg image from the .scn file.
 
-##Step 1: Install the PMA.start application to use the API
+## Step 1: Install the PMA.start application to use the API
 
 Go to [PMA's website](https://free.pathomation.com/download/) and install the corresponding application for your operating system. Continue with the installation process and make sure you place it somewhere on your disk where you can easily access it (applications for macOS for example because you can easily open it using launchpad).
 
-##Step 2: Download the script
+## Step 2: Download the script
 
 Clone this repository and move it to somewhere you can easily recall to make sure you remember where your files are located. Download the .zip file or open terminal, navigate to your desired localtion and type in the following command
 
@@ -18,7 +18,7 @@ git clone https://github.com/Cyb3rBlaze/ScnConverter.git
 
 The previous script assumes you have git command line tools installed. If you don't, just download the .zip file, extract the contents, and move the folder to the desired location.
 
-##Step 3: Install the dependencies
+## Step 3: Install the dependencies
 
 Go to your cloned folder and type in the following commands
 
@@ -35,7 +35,7 @@ pip install -r requirements.txt
 
 It may take a couple minutes to install the dependencis so be prepared to wait for a bit.
 
-##Step 3: Configure your script
+## Step 4: Configure your script
 
 In order to properly configure your script, you must set the directory for all of your .scn files. You can do this very QUICKLY by opening up the PMA.start application you downloaded from step 1 and navigating to your directory.
 
@@ -64,7 +64,7 @@ After you set the index of the image you want converted, set the scale to whatev
 
 Note: As you increase the scale, the amount of time it takes increases exponentially so be aware that it will take a long time to produce very large images. You may want to start off with a scale of about 5 and increase from their based on your desired resolution.
 
-##Step 4: Run your script
+## Step 5: Run your script
 
 Once everything is configured, open your terminal again and navigate back to your cloned directory. If your virtual enviornment is not activated, activate it again.
 
