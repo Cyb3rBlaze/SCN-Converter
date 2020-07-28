@@ -11,8 +11,9 @@ from pma_python import core
 
 #=========STUFF TO CHANGE==========
 
-scale = 0
-pma_start_slide_dir = "Root/Users/"
+scale = 4
+pma_start_slide_dir = "Root/Users/cyb3rblaz3/Desktop/Python Projects/ScnConverter/data"
+slideIndex = 1
 
 #==================================
 
@@ -45,7 +46,7 @@ def get_concat(im1, im2, x, y):
 
 slides = core.get_slides(pma_start_slide_dir)
 print(slides)
-slide = slides[0]
+slide = slides[slideIndex]
 for zl in range(0, core.get_max_zoomlevel(slide)):
     (x, y, tot) = core.get_number_of_tiles(slide, zl)
     if tot > scale*scale and x >= scale and y >= scale:

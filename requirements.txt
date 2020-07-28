@@ -4,3 +4,5 @@ matplotlib
 numpy
 pprint
 pandas
+requests-toolbelt
+pma_python
